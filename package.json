@@ -1,0 +1,21 @@
+{
+  "name": "mailing_app",
+  "version": "1.0.0",
+  "description": "Mailing Application using google Auth2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harshad Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.37",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^71.0.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
